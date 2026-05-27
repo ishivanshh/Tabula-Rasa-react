@@ -2,6 +2,10 @@
 
 A basic **React** project starter. Use this repo to practice components, props, state, and hooks.
 
+1. npx create-react-app
+> node package executer...
+2. npm create vite@latest
+
 ## Requirements
 
 - **Node.js** (LTS recommended)
