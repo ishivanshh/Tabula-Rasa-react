@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card(props) {
+function Media({username = "Tim David"}) {
   return (
     <div className="flex flex-col items-center p-7 rounded-2xl">
 
@@ -15,7 +15,7 @@ function Card(props) {
       <div className="flex flex-col items-center mt-4">
 
         <span className="text-2xl font-medium">
-          {props.username || "Rajat Patidar"}
+          {username}
         </span>
 
         <span className="text-gray-500">
@@ -34,4 +34,4 @@ function Card(props) {
   )
 }
 
-export default Card
+export default Media
